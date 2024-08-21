@@ -61,8 +61,8 @@ During the community bonding period, I actively engaged with mentors, senior mem
 
 #### 📌 Task 1  :
 
-#### 📌 Task 2  :
-
 #### 📌 July 12 : Mid - Term Evaluations
+
+#### 📌 Task 2  :
 
 #### 📌 Task 3  :
