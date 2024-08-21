@@ -59,10 +59,31 @@ During the community bonding period, I actively engaged with mentors, senior mem
 
 ### 📌 May 27 - Aug 19 : Coding Period
 
-#### 📌 Task 1  :
+#### ✔ Task 1  : Introducing Minimal View for Player
+&nbsp;&nbsp;&nbsp; The Minimal View in VLC is a simplified interface mode designed to focus on core media playback functions\
+&nbsp;&nbsp;&nbsp; while minimizing distractions. Key features include:
+
+- **Compact User Interface:** The interface is streamlined, showing only essential playback controls like play, pause, and volume.
+- **Reduced Controls:** Advanced settings and non-critical features like playlists are hidden, ensuring a clutter-free experience.
+- **Focus on Content:** The emphasis is on media playback by maximizing screen space and minimizing distractions.
+- **Customizable Appearance:** Users can customize which controls remain visible and switch between Minimal View and detailed views.
+
+&nbsp;&nbsp;&nbsp; **Implementation in VLC:**
+- **Qt Interface:** Access Minimal View options in VLC Preferences.
+- **Keyboard Shortcut:** Activate Minimal View using `Ctrl+H`.
+- **View Menu:** Enable Minimal View from the top-right View menu.
+
+#### &nbsp;&nbsp;&nbsp; Commits:
+- [qt: MainCtx: Expose Minimal View Property](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=af01e00eaff39a1cfc73d2bc10640b7b002d7a86)
+- [qt: Update Makefile & meson.build with PlayerToolbarVisibility & MinimalView class](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=e2b0c35e699d4a40fa4e22c5794085edd039945a)
+- [qt: Menus: Add QmlAudioContextMenu for Music Playback and Update Player Menus with close() function](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=17577fc9fed6c60efa2db945116a4d85819f0f41)
+- [qml: Player: Update PlayerPlaylistVisibility State Machine](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=47dc9ebc0097d33d30bad2b87734f02db64661ef)
+- [qml: Player: Update Player.qml Minimal View and other features](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=e9422ce0e55617a987c80bac40e4b8f8284de2ba)
+- [qml: Menus: Access Minimal View from View Menu and Shortcut "CTRL + H"](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=3d0692170575d7c6bf3ad674da8e9704d5b29de8)
+- [qml: Player: Implementing Force Unlock to Player components](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=34ff48c4c800966be9f5bc1910f52598313bf2c6)
 
 #### 📌 July 12 : Mid - Term Evaluations
 
-#### 📌 Task 2  :
+#### ✔ Task 2  :
 
-#### 📌 Task 3  :
+#### ✔ Task 3  :
