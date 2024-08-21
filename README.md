@@ -59,4 +59,10 @@ During the community bonding period, I actively engaged with mentors, senior mem
 
 ### 📌 May 27 - Aug 19 : Coding Period
 
+#### 📌 Task 1  :
+
+#### 📌 Task 2  :
+
 #### 📌 July 12 : Mid - Term Evaluations
+
+#### 📌 Task 3  :
