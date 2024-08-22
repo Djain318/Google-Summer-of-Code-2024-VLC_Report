@@ -59,20 +59,21 @@ During the community bonding period, I actively engaged with mentors, senior mem
 
 ### 📌 May 27 - Aug 19 : Coding Period
 
-#### ✔ Task 1  : Introducing Minimal View for Player
-&nbsp;&nbsp;&nbsp; The Minimal View in VLC is a simplified interface mode designed to focus on core media playback functions\
-&nbsp;&nbsp;&nbsp; while minimizing distractions when in Player View. Key features include:
+#### ✔ Task 1 : Introducing Minimal View for Player
+The Minimal View in VLC is a simplified interface mode designed to focus on core media playback functions while minimizing distractions when in Player View. Key features include:
 
 - **Compact User Interface:** The interface is streamlined, showing only essential playback controls like play, pause, and volume.
 - **Reduced Controls:** Advanced settings and non-critical features like playlists are hidden, ensuring a clutter-free experience.
 - **Focus on Content:** The emphasis is on media playback by maximizing screen space and minimizing distractions.
 - **Customizable Appearance:** Users can customize which controls remain visible and switch between Minimal View and detailed views.
 
-&nbsp;&nbsp;&nbsp; **Implementation in VLC:**
+**Implementation in VLC:**
 - **Qt Interface:** Access Minimal View options in VLC Preferences.
 - **Keyboard Shortcut:** Activate Minimal View using `Ctrl+H`.
 - **View Menu:** Enable Minimal View from the top-right View menu.
-<br>
+- **CLI:** from the Command Line Options using `--qt-minimal-view`
+
+#### [MR!13: [GSoC'24] Introducing Minimal View for Player](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13)
 
 **Commits:**
 - [qt: MainCtx: Expose Minimal View Property](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=af01e00eaff39a1cfc73d2bc10640b7b002d7a86)
@@ -92,9 +93,38 @@ During the community bonding period, I actively engaged with mentors, senior mem
 
 #### 📌 July 12 : Mid - Term Evaluations
 
-#### ✔ Task 2  : Add Support to no-qt-bgcone
+<br>
 
-#### ✔ Task 3  : 
+#### ✔ Task 2 : Add Support for `no-qt-bgcone`
+
+The feature allows to hide the artwork and cone placeholder in the Player View. This can be activated from extended settings or from Command Line using `--no-qt-bgcone`
+
+#### [MR!14: [GSoC'24] Add Support for `--no-qt-bgcone`](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14)
+
+**Commits:**
+- [qt: Add Support for --no-qt-bgcone with CLI](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14/diffs?commit_id=9db4d15089fcebd1b6921e96ca07fe8dba90dffb)
+<br>
+
+**Key Takeaways:**
+- Learned the working of <b>Command line</b> options with the Qt Interface
+<br>
+
+#### ✔ Task 3 : [GSoC'24] Introducing Parental Mode for secure access of features and settings
+
+Implemented a parental mode feature that requires users to enter a password to access the preferences settings, enhancing security and control over the application’s configuration.
+
+#### [MR!15: Introducing Parental Mode for secure access of features and settings](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/commits)
+
+**Commits:**
+- [qt: dialogs: Add Parental Mode for secure access of different features](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/diffs?commit_id=5bfd7249150eb5cb469faccc1d2d3a54614e33fd)
+- [qt: Dialogs_Provider: Implement the functionality for Parental Mode by](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/diffs?commit_id=4cbd873eda0d5e87b2ac669da2ee3e09aabec9db)
+- [qt: Add Parental Mode "password" to configurations](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/diffs?commit_id=c37312fdb85c8b2200b01af758b355e324d2d2b5)
+<br>
+
+**Key Takeaways:**
+- Gained experience in creating custom dialogs.
+- Developed skills in integrating configurations, such as password protection.
+- Enhanced understanding of callback mechanisms in C++.
 
 ---
 
@@ -104,5 +134,5 @@ As all assigned tasks are completed and nearly fully tested, the focus now shift
 Moving forward, I will collaborate with my mentor Pierre to thoroughly test the implementation.
 
 <b>
-I will continue contributing to this great project as much as I can, under the guidance of the team. I aim to keep learning and upskilling myself throughout the process.♥
+I will continue contributing to this great project as much as I can, under the guidance of the team. I aim to keep learning and upskilling myself throughout the process.
 </b>
