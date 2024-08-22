@@ -86,17 +86,17 @@ The Minimal View in VLC is a simplified interface mode designed to focus on core
 <br>
 
 **Key Takeaways:**
-- Gained understanding of <b> signals and slots, state machines </b>, and various components of the player view.
+- Gained understanding of **signals and slots, state machines**, and various components of the player view.
 - Found the control bar complex but intriguing.
-- Learned and applied <b>SOLID principles<b> to improve code quality.
+- Learned and applied **SOLID** principles to improve code quality.
 <br>
 
 #### 📌 July 12 : Mid - Term Evaluations
+By the mid-term evaluations, I had completed a significant task and submitted it to my mentor. This task was extensive and provided valuable learning opportunities. I received constructive feedback from my mentor, which highlighted both strengths and areas for improvement. I took this feedback seriously and made a concerted effort to address the suggestions and integrate the improvements into my subsequent tasks. This approach significantly enhanced my performance and contributed to my overall growth during the project.
 
 <br>
 
 #### ✔ Task 2 : Add Support for `no-qt-bgcone`
-
 The feature allows to hide the artwork and cone placeholder in the Player View. This can be activated from extended settings or from Command Line using `--no-qt-bgcone`
 
 #### [MR!14: [GSoC'24] Add Support for `--no-qt-bgcone`](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14)
@@ -110,7 +110,6 @@ The feature allows to hide the artwork and cone placeholder in the Player View. 
 <br>
 
 #### ✔ Task 3 : [GSoC'24] Introducing Parental Mode for secure access of features and settings
-
 Implemented a parental mode feature that requires users to enter a password to access the preferences settings, enhancing security and control over the application’s configuration.
 
 #### [MR!15: Introducing Parental Mode for secure access of features and settings](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/commits)
@@ -129,10 +128,18 @@ Implemented a parental mode feature that requires users to enter a password to a
 ---
 
 ## Post GSoC Period
-
 As all assigned tasks are completed and nearly fully tested, the focus now shifts to rigorous testing across various scenarios and test cases to ensure the code's efficiency and readiness for merging.
 Moving forward, I will collaborate with my mentor Pierre to thoroughly test the implementation.
 
-<b>
-I will continue contributing to this great project as much as I can, under the guidance of the team. I aim to keep learning and upskilling myself throughout the process.
-</b>
+**I will continue contributing to this great project as much as I can, under the guidance of the team. I aim to keep learning and upskilling myself throughout the process.**
+
+---
+
+## Gratitude and Acknowledgments 
+
+I wanted to express my heartfelt thanks **Pierre** for your invaluable guidance throughout this project. My open-source journey with this great project has been a tremendous learning experience, and your feedback played a crucial role in that. I’ve gained a lot of knowledge and skills thanks to your support and mentorship.
+
+I would also like to extend my gratitude to the entire **VideoLAN** team. Working with such a dedicated and talented group has been inspiring and has greatly contributed to my growth.
+
+Thank you all for making this journey so enriching and impactful.
+
