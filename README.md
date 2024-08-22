@@ -40,7 +40,7 @@ MR: [!4984](https://code.videolan.org/videolan/vlc/-/merge_requests/4984) (Merge
 Commit: [4aecd897](https://code.videolan.org/videolan/vlc/-/commit/4aecd897f708d8f41e35b9d50081d82dd70c63f6?merge_request_iid=4984) qt: Update CSD Icons to Segoe Fonts available in different Windows Version
 
 ⇒ Issue: [#28505](https://code.videolan.org/videolan/vlc/-/issues/28505)\
-MR: [!5045](https://code.videolan.org/videolan/vlc/-/merge_requests/5045) (Merged)
+MR: [!5045](https://code.videolan.org/videolan/vlc/-/merge_requests/5045) (Merged)\
 Commits:\
 • [f4a2f119](https://code.videolan.org/videolan/vlc/-/commit/f4a2f119199788316da7a11fbd06fd7b263984ba?merge_request_iid=5045) qt: mlalbummodel: Sort Title by Alphabetical Order\
 • [5cd2d7ae](https://code.videolan.org/videolan/vlc/-/commit/5cd2d7aec11914d0e6c6ef0b5e7c02aeb1bc3e3b?merge_request_iid=5045) qt: MusicArtistsAlbums: add Release Year Sorting Criteria for Albums
@@ -101,10 +101,10 @@ By the mid-term evaluations, I had completed a significant task and submitted it
 
 <br>
 
-#### ✔ Task 2 : Add Support for `no-qt-bgcone`
+#### ✔ Task 2 : Add Support for **no-qt-bgcone**
 The feature allows to hide the artwork and cone placeholder in the Player View. This can be activated from extended settings or from Command Line using `--no-qt-bgcone`
 
-#### [MR!14: [GSoC'24] Add Support for `--no-qt-bgcone`](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14)
+#### [MR!14: [GSoC'24] Add Support for --no-qt-bgcone](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14)
 
 **Commits:**
 - [qt: Add Support for --no-qt-bgcone with CLI](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14/diffs?commit_id=9db4d15089fcebd1b6921e96ca07fe8dba90dffb)
