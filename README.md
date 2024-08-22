@@ -79,7 +79,7 @@ The Minimal View in VLC is a simplified interface mode designed to focus on core
 
 **Commits:**
 - [qt: MainCtx: Expose Minimal View Property](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=af01e00eaff39a1cfc73d2bc10640b7b002d7a86)
-- [qt: Update Makefile & meson.build with PlayerToolbarVisibility & MinimalView class](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=e2b0c35e699d4a40fa4e22c5794085edd039945a)
+- [qt: Update Makefile & meson.build with PlayerToolbarVisibility & MinimalView class](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=f725ed5769c9153d6236e0a2060f46f4a42e981e)
 - [qt: Menus: Add QmlAudioContextMenu for Music Playback and Update Player Menus with close() function](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=17577fc9fed6c60efa2db945116a4d85819f0f41)
 - [qml: Player: Update PlayerPlaylistVisibility State Machine](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=47dc9ebc0097d33d30bad2b87734f02db64661ef)
 - [qml: Player: Update Player.qml Minimal View and other features](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=e9422ce0e55617a987c80bac40e4b8f8284de2ba)
