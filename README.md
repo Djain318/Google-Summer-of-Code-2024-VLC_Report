@@ -1,6 +1,6 @@
 # GSoC '24 Report - VLC : The Ultimate Media Player
 
-![GSoC VLC logo](Utilities\gsoc_vlc_logo.jpg)
+![GSoC VLC logo](Utilities/gsoc_vlc_logo.jpg)
 
 **Student:** Darshan Jain ([@Thrillseekr](https://code.videolan.org/Thrillseekr))
 
@@ -87,7 +87,7 @@ The Minimal View in VLC is a simplified interface mode designed to focus on core
 - [qml: Player: Implementing Force Unlock to Player components](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/13/diffs?commit_id=34ff48c4c800966be9f5bc1910f52598313bf2c6)
 <br>
 
-![Minimal View Video](Utilities\MinimalView_Video.gif)
+![Minimal View Video](Utilities/MinimalView_Video.gif)
 
 **Key Takeaways:**
 - Gained understanding of **signals and slots, state machines**, and various components of the player view.
@@ -109,7 +109,7 @@ The feature allows to hide the artwork and cone placeholder in the Player View. 
 - [qt: Add Support for --no-qt-bgcone with CLI](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/14/diffs?commit_id=9db4d15089fcebd1b6921e96ca07fe8dba90dffb)
 <br>
 
-![no-qt-bgcone Video](Utilities\no-qt-bgcone_Video.gif)
+![no-qt-bgcone Video](Utilities/no-qt-bgcone_Video.gif)
 
 **Key Takeaways:**
 - Learned the working of <b>Command line</b> options with the Qt Interface
@@ -126,7 +126,7 @@ Implemented a parental mode feature that requires users to enter a password to a
 - [qt: Add Parental Mode "password" to configurations](https://code.videolan.org/Thrillseekr/vlc/-/merge_requests/15/diffs?commit_id=c37312fdb85c8b2200b01af758b355e324d2d2b5)
 <br>
 
-![Parental Mode Video](Utilities\parentalMode_video.gif)
+![Parental Mode Video](Utilities/parentalMode_video.gif)
 
 **Key Takeaways:**
 - Gained experience in creating custom dialogs.
